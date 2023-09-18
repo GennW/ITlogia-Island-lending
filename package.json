@@ -1,0 +1,23 @@
+{
+  "description": "Авторский тур в Исландию",
+  "name": "package",
+  "version": "1.0.0",
+  "main": "script/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gennady",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "hover.css": "^2.3.2",
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-watch": "^5.0.1"
+  }
+}

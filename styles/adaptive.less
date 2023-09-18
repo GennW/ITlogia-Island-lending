@@ -1,0 +1,377 @@
+// 1170
+@media screen and (max-width: 1169px) {
+
+    .wrapper-main .main-img {
+        right: 0;
+        bottom: -260px;
+        left: 0;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .wrapper-main .main .container {
+
+        h1,
+        .main-h2 {
+            color: #ffffff;
+        }
+    }
+
+    .block3 .container .block3-items {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        grid-gap: 40px 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1169px) {
+    .block3 .container .block3-items .block3-item {
+        width: 175px;
+    }
+
+
+    .block3 .container .block3-items {
+        grid-gap: 0px 0px;
+    }
+
+    .block3 .container .block3-items .block3-item:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .block3 .block3-bg {
+        width: 100%;
+        height: 100%;
+        background-image: url(../../img/320/dashed-line-767.png);
+        top: 75px;
+        left: 0;
+        background-size: auto 82%;
+        opacity: 0.6;
+    }
+
+    .wrapper-main .main .container .main-map {
+        top: 68px;
+    }
+
+    .block6 .container .block6-wrap .block6-content-wrap .block6-carousel-slick .block6-descr-tour .block6-content-text {
+        margin: 25px 0 5px;
+    }
+}
+
+// 768 - 1169
+@media screen and (max-width: 850px) {
+    .wrapper-main .main .container .main-btns-wrapp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .wrapper-main .main .container .main-map {
+        top: 700px;
+        right: 150px;
+    }
+
+    .wrapper-main .main .container .main-h2,
+    .wrapper-main .main .container h1 {
+        width: 390px;
+    }
+
+    .wrapper-main .main .container h1 {
+        margin-top: 30px;
+        font-size: 50px;
+    }
+
+    .wrapper-main .main .container .main-h2 {
+        font-size: 25px;
+    }
+
+    .bg-white {
+        padding-bottom: 850px;
+    }
+
+    .block2 .container .block2-descr-text {
+        width: 300px;
+    }
+
+    .block2 .container {
+        padding-bottom: 80px;
+    }
+
+    .block3 .block3-bg {
+        top: 76px;
+        background-size: auto 83%;
+        opacity: 0.6;
+    }
+
+    .block4 .container .block4-title {
+        padding-top: 100px;
+    }
+
+    .block4 .container .block4-content .block4-descr .block4-descr-text {
+        width: 270px;
+    }
+
+    .block5 .block5-image {
+        height: 450px;
+    }
+
+    .block6 .container {
+        padding: 50px 15px 90px;
+    }
+
+    .block6 .container .block6-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block6 .container .block6-wrap .block6-content-wrap .block6-carousel-slick .block6-descr-tour .block6-content-text {
+        margin: 25px 0 10px;
+    }
+
+    .block7 .container-white .block7-wrapp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block7 .container-white .block7-wrapp .block7-text {
+        margin-bottom: 40px;
+    }
+
+    .block7 .container-white {
+        margin-bottom: 85px;
+    }
+
+    .block9 {
+        height: 565px;
+    }
+}
+
+// 425 - 767
+@media screen and (max-width: 767px) {
+    .wrapper-main .header .menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.761);
+        z-index: 99;
+
+        .menu-items {
+            color: rgb(217, 217, 255);
+            font-weight: 800;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+
+    }
+
+    .wrapper-main .main .container .main-h2 {
+        font-size: 25px;
+        position: absolute;
+        left: 166px;
+        bottom: -444px;
+        color: rgb(44, 44, 44);
+
+        span {
+            color: rgb(44, 44, 44);
+        }
+    }
+
+    .wrapper-main .main .container .main-btns-wrapp .main-btn-book {
+        position: absolute;
+        left: 258px;
+        bottom: -767px;
+    }
+
+    .block2 {
+        padding-top: 100px;
+    }
+
+    .block2 .container {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 160px;
+
+        .block2-image {
+            width: unset;
+        }
+    }
+
+    .block2 .container .block2-descr-title {
+        position: absolute;
+        left: 200px;
+        top: 10px;
+    }
+
+
+    .block3 {
+        position: relative;
+
+        .block3-bg {
+            width: 150%;
+            height: 115%;
+            background-image: url(../../img/320/dashed-line-320.png);
+            top: -74px;
+            left: -315px;
+        }
+
+        .container {
+            .block3-items {
+                display: grid;
+                justify-items: center;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-template-rows: repeat(4, 1fr);
+                grid-gap: 50px 0px;
+
+                .block3-item {
+                    width: 244px;
+
+                    &:nth-child(1) {
+                        grid-column: 1;
+                        grid-row: 1;
+                    }
+
+                    &:nth-child(2) {
+                        grid-area: 2 / 1;
+                    }
+
+                    &:nth-child(3) {
+                        grid-column: 1;
+                        grid-row: 3;
+                        margin-left: unset;
+                    }
+
+                    &:nth-child(4) {
+                        grid-area: 4 / 1;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .block4 .container .block4-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block4 .container .block4-content .block4-descr {
+        .block4-descr-title {
+            font-size: 20px;
+            font-family: "Montserrat";
+            font-weight: bold;
+            line-height: 1.05;
+        }
+
+        .block4-descr-text {
+            font-size: 14px;
+            font-family: "Montserrat";
+            line-height: 1.5;
+            width: 271px;
+        }
+
+    }
+
+    .block6 .container {
+        padding: 125px 15px 90px;
+        position: relative;
+    }
+
+    .block7-squere-btns {
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+    }
+
+    .block7 .container-white {
+        padding: 53px 51px 50px 55px;
+    }
+
+    .slick-wrapp.slick-slide {
+        margin-bottom: 100px;
+    }
+
+    // block8 slider////////////////////////////////////////
+
+    // .carousel-slick-mini {
+    //     display: block;
+    // }
+    // .carousel-slick-big {
+    //     display: none;
+    // }
+
+
+    //выравниваем по центру картинки
+
+    .slick-track {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slick-slide img {
+        margin: auto;
+        display: block;
+
+    }
+
+    .block8-carousel-slick img {
+        // width: 65%;
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main .container {
+        display: grid;
+        justify-items: center;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+
+
+// .wrapper-main .header .menu-items {
+//     display: none;
+// }
+
+// .menu.open {
+//     display: block;
+// }
+
+// .menu .close {
+//     display: block;
+
+// }
+
+
+
+
+// от 375 - 424
+@media screen and (max-width: 424px) {}
+
+// от 320 - 375
+@media screen and (max-width: 374px) {}
