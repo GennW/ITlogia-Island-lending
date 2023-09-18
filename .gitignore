@@ -1,6 +1,6 @@
 # Игнорирование файлов и папок сборки и временных файлов
 node_modules/
-dist/
+# dist/
 build/
 .cache/
 npm-debug.log*
